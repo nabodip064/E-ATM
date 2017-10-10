@@ -1,0 +1,20 @@
+﻿@model AtmTransaction.Models.logInData
+@{
+    ViewBag.Title = "Cash withdraw";
+}
+
+        @using (Html.BeginForm("About", "Home"))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.Card_Number)
+                @Html.TextBoxFor(m => m.Card_Number, new {@class = "form-control" })
+            </div>
+
+            <div>
+                @Html.LabelFor(m => m.Pin_Number)
+                @Html.TextBoxFor(m => m.Pin_Number, new { @class = "form-control" })
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+        }

@@ -1,6 +1,0 @@
-E:\176652\22-8-2017\E_ATM\E_ATM\bin\Debug\E_ATM.exe.config
-E:\176652\22-8-2017\E_ATM\E_ATM\bin\Debug\E_ATM.exe
-E:\176652\22-8-2017\E_ATM\E_ATM\bin\Debug\E_ATM.pdb
-E:\176652\22-8-2017\E_ATM\E_ATM\obj\Debug\E_ATM.csprojResolveAssemblyReference.cache
-E:\176652\22-8-2017\E_ATM\E_ATM\obj\Debug\E_ATM.exe
-E:\176652\22-8-2017\E_ATM\E_ATM\obj\Debug\E_ATM.pdb

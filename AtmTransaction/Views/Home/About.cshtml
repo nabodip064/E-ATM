@@ -1,0 +1,19 @@
+﻿@model AtmTransaction.Models.logInData
+
+@{
+    ViewBag.Title = "Cash Withdraw";
+}
+@using (Html.BeginForm("Withdraw", "About"))
+{
+    <div>
+        @Html.LabelFor(m => m.Account_Balance)
+        @Html.TextBoxFor(m => m.Account_Balance)
+    </div>
+    <div>
+        <button>Cash Withdraw</button>
+    </div>
+}
+<br/>
+<div>
+    <button>Show details of Account</button>
+</div>
